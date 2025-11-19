@@ -5,7 +5,7 @@
   - name: disable redis module
     ansible.builtin.command: dnf module disable redis -y
   
-  - name: enable reids:7
+  - name: enable redis:7
     ansible.builtin.command: dnf module enable redis:7 -y  
 
   - name: istall redis
